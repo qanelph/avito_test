@@ -1,0 +1,6 @@
+.crop_ad {
+    object-fit: cover;
+    width: 448px;
+    height: 200px;
+    overflow: hidden;
+}
