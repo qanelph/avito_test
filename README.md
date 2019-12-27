@@ -1,3 +1,5 @@
+# Тестовое задание в отдел недвижимости Авито на позицию Frontend-стажёр в юнит Авито.Недвижимость
+
 # Инструкции к запуску:
 - `git clone https://github.com/Lascarfo/avito_test.git`
 - `cd avito_test`
