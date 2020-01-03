@@ -18,7 +18,7 @@ export default function ArticleList({ articles }) {
                 <hr/>
             </div>);
     }
-    console.log(articleElements);
+    // console.log(articleElements);
 
     return (
         <ul>
