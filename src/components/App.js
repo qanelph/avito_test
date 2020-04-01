@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import ArticleList from "./ArticleList/index";
+
 
 import "bootstrap/dist/css/bootstrap.css";
 
@@ -12,7 +12,7 @@ import {
 } from "react-router-dom";
 
 import MainPage from "./pages";
-import Description from "./pages/description";
+import SimpleBot from "./pages/simplebot";
 
 class App extends Component {
     render() {
@@ -20,7 +20,7 @@ class App extends Component {
             <Router>
                 <Switch>
                     <Route exact path = "/" component={MainPage} />
-                    <Route exact path = "/description/:id" component={Description} />
+                    <Route exact path = "/bot" component={SimpleBot} />
                     <Redirect to="/" />
                 </Switch>
             </Router>
